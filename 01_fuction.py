@@ -26,8 +26,10 @@ def avg():
 
     average  = (a + b + c)/3
     print(average)
+    return average   # becase i want actual avg. number .if i use double quote it give string not number.
 
-avg()       # Fuction call
+a = avg()      # Fuction call
+print("saved value:", a)
 print("Thanks")   
 avg()   # now each time i write avg() we can enter no. that time
 
