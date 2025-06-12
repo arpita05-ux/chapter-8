@@ -18,7 +18,7 @@
 # print(average)
 # if i have to do 50 times them it has to many line in program so we use fuction.
 
-
+# Fuction 
 def avg():
     a = int(input("enter your number: "))
     b = int(input("enter your number: "))
@@ -27,7 +27,8 @@ def avg():
     average  = (a + b + c)/3
     print(average)
 
-avg()
+avg()       # Fuction call
+print("Thanks")   
 avg()   # now each time i write avg() we can enter no. that time
 
 
