@@ -13,8 +13,10 @@ goodday("krish")
 def goodday(name, ending):
     print("Good day," + name)
     print(ending)
+    return "ok"       # we use return to save the result so that we use in future.
 
-goodday("Arpita", "Thank you")     
+a = goodday("Arpita", "Thank you")  
+print(a)   
 goodday("krish", "Thank you") 
 
 
